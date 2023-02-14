@@ -1,0 +1,428 @@
+/* smartphones - small */
+@media (max-width:576px){
+    .container{
+        width: 90%;
+    }
+    .btt{
+        display: none;
+    }
+
+    /* nav-top - start */
+    .nav-top .container{
+        width: 100%;
+    }
+    .nav-top .nav-left{
+        display: none;
+    }
+    .nav-top .nav-right{
+        float: none;
+        width: 100%;
+    }
+    .nav-top .nav-right p{
+        float:left;
+        width: 60%;
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+    }
+    .nav-top .nav-right ul{
+        width: 40%;
+        float: right;
+        overflow: hidden;
+    }
+    .nav-top .nav-right .list li{
+        float: left;
+        width: 20%;
+        color: #535353;
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+    /* nav-top - end */
+
+    /* navbar - start */
+    .navbar{
+        position: relative;
+    }
+    .navbar .nav-logo{
+        width: 80%;
+    }
+    .navbar .nav-logo img{
+        width:45%;
+    }
+    .navbar .nav-right{
+        display: none;
+    }
+    .navbar .nav-search{
+        margin: 25px 0;
+        transition: 0.2s;
+    }
+    .navbar .nav-search:hover{
+        border-bottom: #00aced 3px solid;
+        padding-bottom: 0px;
+        color: #00aced;
+    }
+    .nav-mob{
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border: 1px solid #469fe4;
+        border-radius: 4px;
+        padding: 3px 5px;
+        font-size: 18px;
+        transition: all 0.5s;
+    }
+    .nav-mob:hover{
+        background-color: #00aced;
+        color: white;
+    }
+    /* navbar - end */
+
+    /* header - start */
+    .header{
+        height: 300px;
+        background-size: cover;
+        background-attachment:local;
+    }
+    .header-content{
+        margin-top: 80px;
+    }
+    .header .header-content h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .header .header-content p{
+        width: 90%;
+        font-size: 14px;
+        margin-left: 5%;
+    }
+    .header .header-content a{
+        padding: 5px 10px;
+    }
+    /* header - end */
+
+    /* about - start */
+    .about .about-pic{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .about .about-pic img{
+        width: 70%;
+    }
+    .about .about-desc{
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about .about-desc h2{
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .about .about-desc p{
+        margin-bottom: 20px;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .about .about-desc ul i{
+        width:30px;
+        height:30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    /* about - end */
+
+    /* statics - start */
+    .statics{
+        padding: 50px 0;
+    }
+    .statics .static{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .statics .static i{
+        font-size: 32px;
+    }
+    .statics .static .p1{
+        font-size: 32px;
+    }
+    .statics .static .p2{
+        font-size: 16px;
+    }
+    /* statics - end */
+
+    /* choose-us - start */
+    .choose-us h2{
+        font-size: 24px;
+    }
+    .choose-us .para{
+        font-size: 14px;
+    }
+    .choose-us .content .item{
+        width: 100%;
+        height: 120px;
+    }
+    .choose-us .content{
+        margin-top: 30px;
+    }
+    .choose-us .content .item .desc h3{
+        font-size: 15px;
+    }
+    .choose-us .content .item .desc i{
+        font-size: 15px;
+    }
+    .choose-us .content .item .desc p{
+        font-size: 14px;
+    }
+    /* choose-us - end */
+
+    /* happy - start */
+    .happy .ha-img{
+        float: none;
+        width: 100%;
+    }
+    .happy .ha-img img{
+        width: 100%;
+    }
+    .happy .ha-desc{
+        float: none;
+        width: 100%;
+    }
+    .happy .ha-desc h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .happy .ha-desc p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .happy .ha-desc ul li i{
+        font-size: 16px;
+    }
+    /* happy - end */
+
+    /* testimonials - start */
+    .testimonials{
+        padding: 50px 0;
+    }
+    .testimonials h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .testimonials .para-test{
+        margin-bottom: 30px;
+    }
+    .testimonials .item{
+        float: none;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .testimonials .item p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .testimonials .item p::after{
+        top: 91%;
+    }
+    /* testimonials - end */
+
+    /* contact - start */
+    .contact .main-contact h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .contact .main-contact p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .contact .main-contact a{
+        padding: 5px 15px;
+    }
+    /* contact - end */
+
+    /* fotter-top - start */
+    .fotter-top{
+        padding: 50px 0;
+        font-size: 14px;
+    }
+    .fotter-top .list h3{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .fotter-top .list p{
+        font-size: 12px;
+    }
+    .fotter-top .list{
+        float:left;
+        width: 50%;
+        margin-right: 0%;
+    }
+    .fotter-top .list1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /* fotter-top - end */
+
+    /* fotter-end -start */
+    .fotter-end{
+    padding: 20px 0;
+    }
+    .fotter-end .content-desc{
+        width: 60%;
+        float: left;
+        padding: 10px 0;
+    }
+    .fotter-end .content-desc p{
+        font-size: 12px;
+    }
+    .fotter-end .content-icons{
+        float: left;
+        width: 40%;
+        text-align: right;
+    }
+    .fotter-end .content-icons i{
+        padding: 0 10px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    /* fotter-end- end */
+}
+
+/* tablets - medium */
+@media (min-width:576px) and (max-width:992px){
+    .container{
+        width: 90%;
+    }
+    /* navbar - start */
+    .navbar .nav-right{
+        padding-left: 0px;
+        margin: 20px 0;
+    }
+    .navbar .nav-right ul{
+        margin-left: 0px;
+    }
+    .navbar .nav-right ul li a{
+        font-size: 14px;
+    }
+    .navbar .nav-search{
+        margin: 20px 0;
+    }
+    /* navbar - end */
+
+    /* header - start*/
+    .header{
+        height: 400px;
+        background-size: cover;
+        background-attachment: unset;
+    }
+    .header-content{
+        margin-top: 130px;
+    }
+    .header .header-content h1{
+        margin-bottom: 10px;
+        font-size: 36px;
+    }
+    .header .header-content p{
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    .header .header-content a{
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    /* header - end*/
+
+    /* about - start */
+    .about .about-pic{
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    .about .about-pic img{
+        width: 100%;
+    }
+    .about .about-desc{
+        float: left;
+        width: 50%;
+        margin-top: 100px;
+    }
+    .about .about-desc p{
+        font-size: 16px;
+    }
+    /* about - end */
+
+    /* statics - start */
+    .statics .static i{
+        font-size: 36px;
+    }
+    .statics .static .p1{
+        font-size: 32px;
+    }
+    .statics .static .p2{
+        font-size: 15px;
+    }
+    /* statics - end */
+
+    /* choose-us - start */
+    .choose-us h2{
+        font-size: 36px;
+    }
+    .choose-us .content .item{
+        width: 50%;
+        height: 130px;
+    }
+    /* choose-us - end */
+
+    /* happy - start */
+    .happy .ha-img{
+        margin-top: 10%;
+    }
+    .happy .ha-desc{
+        float: left;
+        width: 50%;
+    }
+    .happy .ha-desc h2{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .happy .ha-desc p{
+        width: 90%;
+        line-height: 25px;
+    }
+    /* happy - end */
+    
+    /* testimonials - start */
+    .testimonials h2{
+        font-size: 36px;
+    }
+    .testimonials .item{
+        width: 100%;
+    }
+    /* testimonials - end */
+
+    /* fotter-top - start */
+    .fotter-top .list h3{
+        margin-bottom: 10px;
+    }
+    .fotter-top .list{
+        width: 30%;
+        margin-right: 3%;
+    }
+    .fotter-top .list1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /* fotter-top - end */
+}
+/* macbook and other - large */
+@media (min-width:992px) and (max-width:1280px){
+    .container{
+        width: 90%;
+    }
+}
